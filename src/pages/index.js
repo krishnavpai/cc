@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { getSession, useSession, signOut } from "next-auth/react"
 import { useEffect, useState } from "react";
 import HomeBoard from '../pages/homeboard'
-import TopBar from '../components/TopBar'
+
 
 
 export default function Home() {

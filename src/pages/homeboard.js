@@ -34,8 +34,6 @@ export default function Home(props) {
             params: { email: props.email },
           }
         );
-        console.log("lskdhfgaowjfghpoi");
-        setRes("df");
       } catch (error) {
         if(props.email == email)
         setBoardData(BoardData1);
